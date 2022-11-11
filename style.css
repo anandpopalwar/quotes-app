@@ -60,10 +60,11 @@ h1{
 }
 
 .container{
-    padding: 50px;
+    padding: 10px 20px 10px 20px;
     width: 500px;
     height: 300px;
     margin: 20px auto;
+    /* background-color: bisque; */
     /* display: inline-grid;
     place-items: center; */
     /* align-self: center; */
