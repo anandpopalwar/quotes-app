@@ -1,33 +1,46 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quote app</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-</head>
-<body>
-    
-    
-    <header class="auther_names">
-        <!-- <button id="randomAuthor1">dalai lama</button>
-        <button id="randomAuthor2">buddha </button>
-        <button id="randomAuthor3">Dr. Ambedkar</button> -->
-        <h4 id="randomAuthor1" class="randomAuthor1"></h4>
-        <h4 id="randomAuthor2" class="randomAuthor1"></h4>
-        <h4 id="randomAuthor3" class="randomAuthor1"></h4>
-    </header>
-    <div class="container">
-        <h1 id="randomQuote">click button to get random quote</h1>
-        <h2 id="randomQuoteAuthor"><span class="material-symbols-outlined">
-            arrow_drop_down_circle
-            </span></h2>
-    </div>
-    
-    <footer class="btn_container">
-        <button class="btn" onclick="generateRandomQuote()">Get Quote</button>
-    </footer>
-    <script src="/app.js"></script>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Quote app</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    </head>
+    <body>
+        
+        <div class="quotesContainer">
+            <!-- <div class="quotes">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas soluta repudiandae itaque.
+            </div> -->
+        </div>
+        
+        
+        
+        <div class="container">
+            <h1 id="randomQuote" class="center"><span>Welcome.</span>
+                Hit below button to get random quote</h1>
+            <h2 id="randomQuoteAuthor"></h2>
+        </div>
+        
+            <header class="authorContainer" id="authorContainer">
+            <!-- <div id="randomAuthor1" class="randomAuthor1">author 1</div>
+                <div id="randomAuthor2" class="randomAuthor1">author 2 </div> -->
+                <!-- <div id="randomAuthor3" class="randomAuthor1">author 3</div> --> 
+            </header>
+            
+            <div>
+                <h1 id="authorname"></h1>
+                <div id="listContainer">
+                    <!-- <div class="quotes" >
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci beatae ex corrupti omnis libero voluptatibus.
+                    </div> -->
+                </div>
+            </div>
+                
+                <!-- <footer class="btn_container"> -->
+                    <button class="btn" onclick="generateRandomQuote()" >Get Quote</button>
+                <!-- </footer> -->
+            <script src="/app.js"></script>
+        </body>
 </html>
